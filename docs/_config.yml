@@ -1,0 +1,3 @@
+webrick:
+  headers:
+    Referrer-Policy: no-referrer
