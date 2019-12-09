@@ -1,3 +1,3 @@
 webrick:
-  headers:
-    Referer: https://www.shufoo.net
+    headers:
+        Referrer-Policy: no-referrer
