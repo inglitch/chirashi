@@ -4,17 +4,17 @@
   "description": "チラシ",
   "icons": [
     {
-      "src": "192x192.png",
+      "src": "apple-touch-startup-image.png",
       "sizes": "192x192",
       "type": "image/png"
     }, {
-      "src": "512x512.png",
+      "src": "apple-touch-icon.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#eee",
-  "theme_color": "#eee"
+  "background_color": "#fff",
+  "theme_color": "#fff"
 }

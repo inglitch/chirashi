@@ -1,0 +1,148 @@
+{
+  "title": "チラシ",
+  "all": "すべて",
+  "other": "その他",
+  "area": [
+    "川中周辺",
+    "和泉中央周辺",
+    "光明池周辺",
+    "クロスモール周辺",
+    "堺インター周辺",
+    "津久野周辺",
+    "五條・橋本"
+  ],
+  "type": [
+    "スーパー",
+    "ドラッグストア",
+    "ホームセンター",
+    "家電量販店"
+  ],
+  "api": [
+    {
+      "type": "jsonp",
+      "url": "https://asp.shufoo.net/api/shopDetailXML.php?shopId={id}&responseFormat=json&usedfor=shufoo.asp.chirashilist&referer=www.shufoo.net&callback=?",
+      "url_": "https://asp.shufoo.net/api/shopDetailXML.php?un={un}&shopId={id}&responseFormat=json&usedfor=shufoo.asp.chirashilist&referer=www.shufoo.net&callback=?"
+    },
+    {
+      "type": "iframe",
+      "url": "https://widgets.tokubai.co.jp/{id}/leaflet_widget"
+    },
+    { "type": "urls" }
+  ],
+  "shop": [
+    { "area": 0, "type": 0, "api": 0, "name": "スーパーセンターオークワ/和泉納花店", "un": "okuwa", "id": 174654 },
+    { "area": 0, "type": 0, "api": 1, "name": "マツゲン/光明池店", "id": 3702 },
+    { "area": 0, "type": 0, "api": 1, "name": "スーパーサンエー/光明台店", "id": 10952 },
+
+    { "area": 0, "type": 1, "api": 0, "name": "ウエルシア/和泉納花店", "un": "welciayakkyoku", "id": 299378 },
+    { "area": 0, "type": 1, "api": 1, "name": "スギドラッグ/和泉和田店", "id": 124840 },
+
+    { "area": 1, "type": 0, "api": 0, "name": "コープ和泉中央", "un": "izumicoop", "id": 315684 },
+    { "area": 1, "type": 0, "api": 0, "name": "イズミヤ/和泉中央店", "un": "izumiya", "id": 136342 },
+    { "area": 1, "type": 0, "api": 0, "name": "万代/和泉万町店", "un": "mandai", "id": 6176 },
+    { "area": 1, "type": 0, "api": 0, "name": "万代/和泉中央店", "un": "mandai", "id": 2457 },
+    { "area": 1, "type": 0, "api": 1, "name": "ディオ/和泉店", "id": 5820 },
+    { "area": 1, "type": 0, "api": 1, "name": "サンディ/和泉観音寺店", "id": 7016 },
+
+    { "area": 1, "type": 1, "api": 1, "name": "ココカラファイン/コープ和泉中央店", "id": 17946 },
+    { "area": 1, "type": 1, "api": 1, "name": "ココカラファイン/和泉万町店", "id": 115560 },
+    { "area": 1, "type": 1, "api": 0, "name": "ウエルシア/和泉浦田店", "un": "welciayakkyoku", "id": 317534 },
+    { "area": 1, "type": 1, "api": 1, "name": "キリン堂/のぞみ野店", "id": 15722 },
+
+    { "area": 1, "type": 2, "api": 0, "name": "コーナン/和泉中央店", "un": "kohnan", "id": 1310 },
+    { "area": 1, "type": 2, "api": 0, "name": "スーパービバホーム/和泉中央店", "un": "lixilviva", "id": 266604 },
+
+    { "area": 1, "type": 3, "api": 0, "name": "ジョーシン/和泉中央店", "un": "", "id": 318041 },
+    { "area": 1, "type": 3, "api": 0, "name": "ヤマダ電機/和泉中央本店", "un": "", "id": 180794 },
+    { "area": 1, "type": 3, "api": 0, "name": "ケーズデンキ/岸和田和泉インター店", "un": "", "id": 163060 },
+    { "area": 1, "type": 3, "api": 0, "name": "エディオン/ららぽーと和泉店", "un": "", "id": 246888 },
+
+    { "area": 1, "type": -1, "api": 0, "name": "MEGAドン・キホーテ/和泉中央店", "un": "donki", "id": 829750 },
+
+    { "area": 2, "type": 0, "api": 0, "name": "ダイエー/光明池店", "un": "Daiei", "id": 76 },
+    { "area": 2, "type": 0, "api": 1, "name": "マツゲン/コムボックス光明池店", "id": 3697 },
+    { "area": 2, "type": 0, "api": 2, "name": "サンプラザ/光明池店", "urls": [
+      "https://www.tagshops.jp/files/sunplaza/sp/01/front/front.jpg",
+      "https://www.tagshops.jp/files/sunplaza/sp/01/back/back.jpg"
+    ] },
+    { "area": 2, "type": 0, "api": 1, "name": "KOHYO/光明池店", "id": 20996 },
+    { "area": 2, "type": 0, "api": 0, "name": "ライフ/城山台店", "un": "lifecorposaka", "id": 118412 },
+
+    { "area": 2, "type": 1, "api": 0, "name": "ウエルシア/COMBOX光明池店", "un": "welciayakkyoku", "id": 299379 },
+    { "area": 2, "type": 1, "api": 0, "name": "ウエルシア/和泉光明池駅前店", "un": "welciayakkyoku", "id": 822185 },
+
+    { "area": 2, "type": 3, "api": 0, "name": "ジョーシン/光明池店", "un": "", "id": 11213 },
+    { "area": 2, "type": 3, "api": 0, "name": "エディオン/ダイエー光明池店", "un": "", "id": 309861 },
+
+    { "area": 3, "type": 0, "api": 0, "name": "万代/御池台店", "un": "mandai", "id": 2448 },
+    { "area": 3, "type": 0, "api": 0, "name": "イズミヤ/デイリーカナート原山台店", "un": "izumiya", "id": 136347 },
+    { "area": 3, "type": 0, "api": 1, "name": "サンディ/泉北原山台店", "id": 7054 },
+
+    { "area": 3, "type": 1, "api": 0, "name": "ドラッグコスモス/原山台店", "un":"", "id": 824039 },
+    { "area": 3, "type": 1, "api": 0, "name": "ウエルシア/堺原山台店", "un":"welciayakkyoku", "id": 299377 },
+
+    { "area": 3, "type": 2, "api": 0, "name": "ケーヨーデイツー/泉北原山台店", "un":"keiyo", "id": 116703 },
+
+    { "area": 3, "type": -1, "api": 0, "name": "ドン・キホーテ/クロスモール堺店", "un":"donki", "id": 288681 },
+
+    { "area": 4, "type": 0, "api": 1, "name": "ラ・ムー/堺インター店", "id": 170428 },
+
+    { "area": 4, "type": 2, "api": 0, "name": "DCMダイキ/堺インター店", "un": "daiki", "id": 3334 },
+    { "area": 4, "type": 2, "api": 0, "name": "コーナン/泉北2号小代店", "un": "kohnan", "id": 118715 },
+
+    { "area": 4, "type": 3, "api": 0, "name": "ジョーシン/堺インター店", "un": "", "id": 134097 },
+    { "area": 4, "type": 3, "api": 0, "name": "ヤマダ電機/泉北堺インター店", "un": "", "id": 834748 },
+    { "area": 4, "type": 3, "api": 0, "name": "エディオン/堺インター店", "un": "", "id": 3802 },
+
+    { "area": 5, "type": 0, "api": 0, "name": "イトーヨーカドー/津久野店", "un": "IY", "id": 386 },
+    { "area": 5, "type": 0, "api": 1, "name": "デイリーカナート/向ヶ丘店", "id": 42671 },
+    { "area": 5, "type": 0, "api": 1, "name": "サンディ/津久野店", "id": 17407 },
+    { "area": 5, "type": 0, "api": 1, "name": "マツゲン/北条店", "id": 3704 },
+    { "area": 5, "type": 0, "api": 0, "name": "万代/上野芝店", "un": "mandai", "id": 303964 },
+    { "area": 5, "type": 0, "api": 0, "name": "西友/上野芝店", "un": "seiyu", "id": 17083 },
+    { "area": 5, "type": 0, "api": 0, "name": "ダイエー/おおとり店", "un": "Daiei", "id": 79 },
+    { "area": 5, "type": 0, "api": 0, "name": "ライフ/石津店", "un": "lifecorposaka", "id": 118507 },
+    { "area": 5, "type": 0, "api": 1, "name": "業務スーパー/鳳店", "id": 120737 },
+
+    { "area": 5, "type": 1, "api": 0, "name": "マザーピア/津久野店", "un": "", "id": 11194 },
+    { "area": 5, "type": 1, "api": 0, "name": "ウエルシア/堺上野芝店", "un": "welciayakkyoku", "id": 299388 },
+
+    { "area": 5, "type": 2, "api": 0, "name": "コーナン/堺店", "un": "kohnan", "id": 104411 },
+    { "area": 5, "type": 2, "api": 0, "name": "ロイヤルホームセンター/堺店", "un": "royalhc", "id": 163025 },
+
+    { "area": 5, "type": 3, "api": 0, "name": "ジョーシン/鳳店", "un": "", "id": 170091 },
+    { "area": 5, "type": 3, "api": 0, "name": "エディオン/堺石津店", "un": "", "id": 107389 },
+    { "area": 5, "type": 3, "api": 0, "name": "ヤマダ電機/西友上野芝店", "un": "", "id": 823737 },
+
+    { "area": 5, "type": -1, "api": 1, "name": "ジャパン/堺浜寺店", "id": 33381 },
+
+    { "area": 6, "type": 0, "api": 2, "name": "エーコープ近畿/ハートフル五條店", "urls": [
+      "https://www.acoop-kinki.co.jp/shop/pdf/east.pdf?1010939035"
+    ] },
+    { "area": 6, "type": 0, "api": 1, "name": "イオン/五條店", "id": 12741 },
+    { "area": 6, "type": 0, "api": 0, "name": "スーパーセンターオークワ/橋本店", "un": "okuwa", "id": 174661 },
+    { "area": 6, "type": 0, "api": 0, "name": "オークワ/オーストリート橋本彩の台店", "un": "okuwa", "id": 174736 },
+    { "area": 6, "type": 0, "api": 1, "name": "マツゲン/橋本林間店", "id": 22079 },
+    { "area": 6, "type": 0, "api": 1, "name": "マツゲン/橋本店", "id": 3712 },
+    { "area": 6, "type": 0, "api": 2, "name": "プロマートワールド/橋本店", "urls": [ "http://www.n-gr.jp/chirashi/" ] },
+
+    { "area": 6, "type": 1, "api": 0, "name": "ドラッグコスモス/五條今井店", "un": "", "id": 290869 },
+    { "area": 6, "type": 1, "api": 1, "name": "キリン堂/五條店", "id": 15729 },
+    { "area": 6, "type": 1, "api": 0, "name": "ジップドラッグ/五條店", "un": "", "id": 210696 },
+    { "area": 6, "type": 1, "api": 0, "name": "ジップドラッグ/東洋隅田店", "un": "", "id": 210714 },
+    { "area": 6, "type": 1, "api": 0, "name": "ウエルシア/橋本彩の台店", "un": "welciayakkyoku", "id": 299457 },
+
+
+    { "area": 6, "type": 2, "api": 1, "name": "ジュンテンドー/五條店", "id": 19498 },
+    { "area": 6, "type": 2, "api": 2, "name": "コメリ/五條野原店", "urls": [
+      "https://www.komeri.com/contents/dc/circular/1208.html"
+    ] },
+    { "area": 6, "type": 2, "api": 0, "name": "ホームストック/五條二見店", "un": "kohnan", "id": 1436 },
+    { "area": 6, "type": 2, "api": 0, "name": "ケーヨーデイツー/橋本彩の台店", "un":"keiyo", "id": 116711 },
+
+    { "area": 6, "type": 3, "api": 0, "name": "ヤマダ電機/テックランド和歌山橋本店", "un": "", "id": 180672 },
+    { "area": 6, "type": 3, "api": 0, "name": "ケーズデンキ/橋本店", "un": "", "id": 266065 },
+
+    { "area": 6, "type": -1, "api": 2, "name": "山賊村", "urls": [ "https://page.line.me/czn7501y" ] }
+  ]
+}
